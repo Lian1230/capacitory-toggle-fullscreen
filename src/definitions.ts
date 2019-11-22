@@ -1,9 +1,9 @@
 declare module "@capacitor/core" {
   interface PluginRegistry {
-    CapacitorToggleFullscreen: CapacitorToggleFullscreenPlugin;
+    ToggleFullScreen: ToggleFullScreenPlugin;
   }
 }
 
-export interface CapacitorToggleFullscreenPlugin {
+export interface ToggleFullScreenPlugin {
   echo(options: { value: string }): Promise<{value: string}>;
 }

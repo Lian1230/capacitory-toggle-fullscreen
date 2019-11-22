@@ -1,10 +1,10 @@
 import { WebPlugin } from '@capacitor/core';
-import { CapacitorToggleFullscreenPlugin } from './definitions';
+import { ToggleFullScreenPlugin } from './definitions';
 
-export class CapacitorToggleFullscreenWeb extends WebPlugin implements CapacitorToggleFullscreenPlugin {
+export class ToggleFullScreenWeb extends WebPlugin implements ToggleFullScreenPlugin {
   constructor() {
     super({
-      name: 'CapacitorToggleFullscreen',
+      name: 'ToggleFullScreen',
       platforms: ['web']
     });
   }
@@ -15,9 +15,9 @@ export class CapacitorToggleFullscreenWeb extends WebPlugin implements Capacitor
   }
 }
 
-const CapacitorToggleFullscreen = new CapacitorToggleFullscreenWeb();
+const ToggleFullScreen = new ToggleFullScreenWeb();
 
-export { CapacitorToggleFullscreen };
+export { ToggleFullScreen };
 
 import { registerWebPlugin } from '@capacitor/core';
-registerWebPlugin(CapacitorToggleFullscreen);
+registerWebPlugin(ToggleFullScreen);

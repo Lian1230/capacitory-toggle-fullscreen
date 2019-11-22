@@ -5,8 +5,8 @@ import Capacitor
  * Please read the Capacitor iOS Plugin Development Guide
  * here: https://capacitor.ionicframework.com/docs/plugins/ios
  */
-@objc(CapacitorToggleFullscreen)
-public class CapacitorToggleFullscreen: CAPPlugin {
+@objc(ToggleFullScreen)
+public class ToggleFullScreen: CAPPlugin {
     
     @objc func echo(_ call: CAPPluginCall) {
         let value = call.getString("value") ?? ""
