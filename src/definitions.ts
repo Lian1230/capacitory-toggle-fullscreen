@@ -5,5 +5,5 @@ declare module "@capacitor/core" {
 }
 
 export interface ToggleFullScreenPlugin {
-  echo(options: { value: string }): Promise<{value: string}>;
+  toggle(options: { value: string }): Promise<{value: string}>;
 }
