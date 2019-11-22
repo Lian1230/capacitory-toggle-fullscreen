@@ -9,9 +9,8 @@ export class ToggleFullScreenWeb extends WebPlugin implements ToggleFullScreenPl
     });
   }
 
-  async toggle(options: { value: string }): Promise<{value: string}> {
+  async toggle(options?: { orientation: string }): Promise<any> {
     console.log('TOGGLE', options);
-    return options;
   }
 }
 
