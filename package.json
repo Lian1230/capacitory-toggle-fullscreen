@@ -1,6 +1,6 @@
 {
   "name": "capacitor-plugin-toggle-fullscreen",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Toggle Fullscreen from JS",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
