@@ -1,6 +1,6 @@
 {
   "name": "capacitor-plugin-toggle-fullscreen",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Toggle Fullscreen from JS",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -41,9 +41,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Lian-LF/capacitory-toggle-full"
+    "url": "https://github.com/Lian-LF/capacitory-toggle-fullscreen.git"
   },
   "bugs": {
-    "url": "https://github.com/Lian-LF/capacitory-toggle-full/issues"
+    "url": "https://github.com/Lian-LF/capacitory-toggle-fullscreen/issues"
   }
 }
